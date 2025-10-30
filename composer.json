@@ -7,7 +7,8 @@
     "authors": [
         {
             "name": "p3pp01",
-            "email": "pietro.bardone@gruppoanteo.it"
+            "email": "pietro.bardone@gruppoanteo.it",
+            "homepage": "https://anteocoop.it"
         }
     ],
     "require": {

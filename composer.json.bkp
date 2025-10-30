@@ -1,5 +1,5 @@
 {
-    "name": "anteo/yii2-jasperbridge",
+    "name": "hal/yii2-jasperbridge",
     "description": "JasperReport extension using php javabridge",
     "keywords": ["yii2", "extension", "jasperreport", "report"],
     "type": "yii2-extension",
