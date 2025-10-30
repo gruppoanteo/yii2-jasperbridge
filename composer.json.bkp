@@ -1,0 +1,19 @@
+{
+    "name": "anteo/yii2-jasperbridge",
+    "description": "JasperReport extension using php javabridge",
+    "keywords": ["yii2", "extension", "jasperreport", "report"],
+    "type": "yii2-extension",
+    "license": "BSD 3-Clause",
+    "authors": [
+        {
+            "name": "Marco Curatitoli",
+            "email": "marco.curatitoli@halservice.it"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {"hal\\jasperbridge\\": ""}
+    }
+}

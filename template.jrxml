@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Yii template" language="groovy" pageWidth="595" pageHeight="842" columnWidth="539" leftMargin="28" rightMargin="28" topMargin="28" bottomMargin="28" uuid="4bba0f37-b540-4d13-a0e0-633ccbdf56e4">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<property name="ireport.callouts" value="##Mon Dec 11 10:06:56 CET 2017\ncallouts.1.pins=305,181;\ncallouts.1.text=INFO\n\n- Impostare correttamente il valore default del parametro APP_FOLDER (default @app)\n\n- In caso di utilizzo di nuovi fonts in Strumenti/Opzioni va aggiunto il font ed esportato il jar da caricare nella java.lib.ext del server\n\n- Parametro data\: default con formula new SimpleDateFormat(&quot;yyyy-MM-dd&quot;).parse(&quot;2011-11-30&quot;)\n\ncallouts.1.bounds=154,225,366,197"/>
+	<parameter name="APP_FOLDER" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["/path/to/app"]]></defaultValueExpression>
+	</parameter>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<title>
+		<band height="53"/>
+	</title>
+	<pageHeader>
+		<band height="50"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="50"/>
+	</columnHeader>
+	<detail>
+		<band height="143"/>
+	</detail>
+	<columnFooter>
+		<band height="50"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="50"/>
+	</pageFooter>
+	<summary>
+		<band height="51"/>
+	</summary>
+</jasperReport>
